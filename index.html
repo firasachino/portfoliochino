@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Firas Abadi - Portfolio</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/650af4d8a1.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-gray-900 text-gray-100 font-['Inter']">
+    <canvas id="particles-canvas"></canvas>
+<nav class="fixed top-0 w-full bg-gray-900/90 backdrop-blur-sm z-50 border-b border-gray-800">
+  <div class="max-w-6xl mx-auto px-4 py-4">
+    <div class="flex justify-center gap-4">
+      <a href="#home" class="nav-link px-5 py-2 rounded-lg bg-gray-800/80 hover:bg-cyan-600 transition-all duration-300 border border-gray-700 hover:border-cyan-500 font-medium">Home</a>
+      <a href="#portfolio" class="nav-link px-5 py-2 rounded-lg bg-gray-800/80 hover:bg-cyan-600 transition-all duration-300 border border-gray-700 hover:border-cyan-500 font-medium">Portfolio</a>
+      <a href="#contact" class="nav-link px-5 py-2 rounded-lg bg-gray-800/80 hover:bg-cyan-600 transition-all duration-300 border border-gray-700 hover:border-cyan-500 font-medium">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<div class="pt-20">
+
+<section id="home" class="min-h-screen flex items-center">
+  <div class="max-w-6xl mx-auto px-4 scroll-py-9 w-full">
+    <div class="flex flex-col-reverse lg:flex-row gap-8 items-center">
+      <div class="lg:w-1/2 fade-in order-2 lg:order-1">
+        <div class="relative group">
+          <div class="absolute -inset-2 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-2xl blur opacity-25 group-hover:opacity-75 transition duration-1000"></div>
+          <img src="images/wb2.png" alt="Firas Abadi" class="relative rounded-xl shadow-2xl group-hover:scale-105 transition-transform duration-700 w-64 md:w-80 lg:w-full max-w-md mx-auto">
+        </div>
+      </div>
+
+      <div class="lg:w-1/2 space-y-6 fade-in order-1 lg:order-2 text-center lg:text-left">
+        <h1 class="text-4xl lg:text-6xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+          Firas Abadi
+        </h1>
+        <p class="text-xl text-gray-300 font-light">Software Developer & Digital Designer</p>
+        <p class="text-gray-400 leading-relaxed max-w-lg mx-auto lg:mx-0">Passionate about creating elegant solutions through code and design. Currently expanding my skills in full-stack development and digital illustration.</p>
+        
+        <div class="flex gap-4 pt-4 justify-center lg:justify-start">
+          <a href="" class="px-6 py-3 bg-cyan-600 hover:bg-cyan-700 rounded-lg transition-all duration-300 font-medium flex items-center gap-2">
+            <i class="fas fa-envelope"></i> Download CV
+          </a>
+          <a href="#portfolio" class="px-6 py-3 border border-gray-600 hover:border-cyan-500 rounded-lg transition-all duration-300 font-medium flex items-center gap-2">
+            <i class="fas fa-briefcase"></i> View Work
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-20 bg-gray-800/30">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="fade-in mb-16">
+      <h2 class="text-3xl font-bold text-center mb-4 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">Skills & Expertise</h2>
+      <p class="text-gray-400 text-center max-w-2xl mx-auto">A diverse skill set spanning development, design, and multiple languages</p>
+    </div>
+    
+    <div class="grid md:grid-cols-2 gap-8 mb-16">
+      <div class="fade-in">
+        <div class="bg-gray-800/50 rounded-2xl p-6 border border-gray-700 hover:border-cyan-500 transition-all duration-300 h-full">
+          <h3 class="text-xl font-semibold text-cyan-400 mb-4 flex items-center gap-2">
+            <i class="fas fa-code"></i> Development
+          </h3>
+          <div class="space-y-3">
+            <div class="flex items-center gap-3 hover:translate-x-2 transition-transform">
+              <div class="w-2 h-2 bg-cyan-400 rounded-full"></div>
+              <span>JavaScript ES6+</span>
+            </div>
+            <div class="flex items-center gap-3 hover:translate-x-2 transition-transform">
+              <div class="w-2 h-2 bg-cyan-400 rounded-full"></div>
+              <span>HTML5 & CSS3</span>
+            </div>
+            <div class="flex items-center gap-3 hover:translate-x-2 transition-transform">
+              <div class="w-2 h-2 bg-cyan-400 rounded-full"></div>
+              <span>Tailwind CSS</span>
+            </div>
+            <div class="flex items-center gap-3 hover:translate-x-2 transition-transform">
+              <div class="w-2 h-2 bg-cyan-400 rounded-full"></div>
+              <span>Git & GitHub</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="fade-in">
+        <div class="bg-gray-800/50 rounded-2xl p-6 border border-gray-700 hover:border-cyan-500 transition-all duration-300 h-full">
+          <h3 class="text-xl font-semibold text-cyan-400 mb-4 flex items-center gap-2">
+            <i class="fas fa-palette"></i> Design & Creative
+          </h3>
+          <div class="space-y-3">
+            <div class="flex items-center gap-3 hover:translate-x-2 transition-transform">
+              <div class="w-2 h-2 bg-cyan-400 rounded-full"></div>
+              <span>Adobe Photoshop</span>
+            </div>
+            <div class="flex items-center gap-3 hover:translate-x-2 transition-transform">
+              <div class="w-2 h-2 bg-cyan-400 rounded-full"></div>
+              <span>Clip Studio Paint</span>
+            </div>
+            <div class="flex items-center gap-3 hover:translate-x-2 transition-transform">
+              <div class="w-2 h-2 bg-cyan-400 rounded-full"></div>
+              <span>Adobe Illustrator</span>
+            </div>
+            <div class="flex items-center gap-3 hover:translate-x-2 transition-transform">
+              <div class="w-2 h-2 bg-cyan-400 rounded-full"></div>
+              <span>Adobe Animate</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="fade-in">
+      <h2 class="text-3xl font-bold text-center mb-12 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">Languages</h2>
+      <div class="max-w-2xl mx-auto space-y-6">
+        <div class="bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-lg font-semibold">Arabic</span>
+            <span class="text-cyan-400 font-medium">Native</span>
+          </div>
+        </div>
+
+        <div class="bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+          <div class="ielts-accordion">
+            <button class="ielts-toggle w-full flex items-center justify-between text-left" aria-expanded="false">
+              <div>
+                <span class="text-lg font-semibold">English</span>
+                <span class="text-cyan-400 font-medium ml-2">IELTS 7.5</span>
+              </div>
+              <svg class="ielts-chevron" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 8l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+            <div class="ielts-content max-h-0 overflow-hidden">
+              <div class="pt-4 border-t border-gray-700 mt-4">
+                <div class="grid grid-cols-2 gap-4 text-sm">
+                  <div class="flex justify-between">
+                    <span>Speaking</span>
+                    <span class="text-cyan-400 font-semibold">8.5</span>
+                  </div>
+                  <div class="flex justify-between">
+                    <span>Reading</span>
+                    <span class="text-cyan-400 font-semibold">8.0</span>
+                  </div>
+                  <div class="flex justify-between">
+                    <span>Writing</span>
+                    <span class="text-cyan-400 font-semibold">6.5</span>
+                  </div>
+                  <div class="flex justify-between">
+                    <span>Listening</span>
+                    <span class="text-cyan-400 font-semibold">7.5</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-gray-800/50 rounded-2xl p-6 border border-gray-700">
+          <div class="flex items-center justify-between">
+            <span class="text-lg font-semibold">German</span>
+            <span class="text-cyan-400 font-medium">B1 Intermediate</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio" class="py-20">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="text-center mb-16 fade-in">
+      <h2 class="text-4xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent mb-4">My Projects</h2>
+      <p class="text-gray-400 text-lg max-w-2xl mx-auto">A collection of my recent work in my coding journey : D </p>
+    </div>
+
+    <div class="space-y-12">
+      <div class="fade-in">
+        <div class="bg-gray-800/50 rounded-2xl overflow-hidden border border-gray-700 hover:border-cyan-500 transition-all duration-500 group">
+          <div class="lg:flex">
+            <div class="lg:w-1/2 p-8">
+              <h3 class="text-2xl font-bold text-cyan-400 mb-3">Advanced Stopwatch</h3>
+              <p class="text-gray-300 mb-4">A modern, responsive stopwatch application with time recording functionality and beautiful wave animations.</p>
+              <div class="space-y-2 mb-6">
+                <div class="flex items-center gap-2">
+                  <div class="w-2 h-2 bg-cyan-400 rounded-full"></div>
+                  <span class="text-sm">Precise millisecond timing</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <div class="w-2 h-2 bg-cyan-400 rounded-full"></div>
+                  <span class="text-sm">Time recording with custom names</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <div class="w-2 h-2 bg-cyan-400 rounded-full"></div>
+                  <span class="text-sm">Local storage persistence</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <div class="w-2 h-2 bg-cyan-400 rounded-full"></div>
+                  <span class="text-sm">Fully responsive design</span>
+                </div>
+              </div>
+              <div class="flex flex-wrap gap-3 mb-4">
+                <span class="px-3 py-1 bg-cyan-600/20 text-cyan-400 rounded-full text-sm border border-cyan-500/30">HTML5</span>
+                <span class="px-3 py-1 bg-cyan-600/20 text-cyan-400 rounded-full text-sm border border-cyan-500/30">CSS3</span>
+                <span class="px-3 py-1 bg-cyan-600/20 text-cyan-400 rounded-full text-sm border border-cyan-500/30">JavaScript</span>
+                <span class="px-3 py-1 bg-cyan-600/20 text-cyan-400 rounded-full text-sm border border-cyan-500/30">GitHub Pages</span>
+              </div>
+              <a href="https://firasachino.github.io/Stop_watchino/" target="_blank" class="inline-flex items-center gap-2 px-6 py-3 bg-cyan-600 hover:bg-cyan-700 rounded-lg transition-all duration-300 font-medium group-hover:scale-105">
+                <i class="fas fa-external-link-alt"></i> Live Demo
+              </a>
+            </div>
+            <div class="lg:w-1/2 p-4 flex items-center justify-center">
+              <div class="relative group/img">
+                <div class="absolute -inset-2 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-xl blur opacity-20 group-hover/img:opacity-40 transition duration-500"></div>
+                <img src="images/gifstopwatch.gif" alt="Stopwatch Demo" class="relative rounded-lg shadow-xl w-full max-w-md">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="fade-in">
+        <div class="bg-gray-800/50 rounded-2xl overflow-hidden border border-gray-700 hover:border-cyan-500 transition-all duration-500 group">
+          <div class="lg:flex flex-row-reverse">
+            <div class="lg:w-1/2 p-8">
+              <h3 class="text-2xl font-bold text-cyan-400 mb-3">Spotify Downloader</h3>
+              <p class="text-gray-300 mb-4">A Python application that converts Spotify tracks to downloadable MP3 files with metadata preservation.</p>
+              <div class="space-y-2 mb-6">
+                <div class="flex items-center gap-2">
+                  <div class="w-2 h-2 bg-cyan-400 rounded-full"></div>
+                  <span class="text-sm">Spotify Web API integration</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <div class="w-2 h-2 bg-cyan-400 rounded-full"></div>
+                  <span class="text-sm">Custom Tkinter GUI</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <div class="w-2 h-2 bg-cyan-400 rounded-full"></div>
+                  <span class="text-sm">MP3 metadata handling</span>
+                </div>
+              </div>
+              <div class="flex flex-wrap gap-3 mb-4">
+                <span class="px-3 py-1 bg-cyan-600/20 text-cyan-400 rounded-full text-sm border border-cyan-500/30">Python</span>
+                <span class="px-3 py-1 bg-cyan-600/20 text-cyan-400 rounded-full text-sm border border-cyan-500/30">Spotipy</span>
+                <span class="px-3 py-1 bg-cyan-600/20 text-cyan-400 rounded-full text-sm border border-cyan-500/30">CustomTkinter</span>
+                <span class="px-3 py-1 bg-cyan-600/20 text-cyan-400 rounded-full text-sm border border-cyan-500/30">API Integration</span>
+              </div>
+              <a href="https://github.com/firasachino/spotifydownloader" target="_blank" class="inline-flex items-center gap-2 px-6 py-3 bg-gray-700 hover:bg-gray-600 rounded-lg transition-all duration-300 font-medium group-hover:scale-105">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+            <div class="lg:w-1/2 p-4 flex items-center justify-center">
+              <div class="relative group/img">
+                <div class="absolute -inset-2 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-xl blur opacity-20 group-hover/img:opacity-40 transition duration-500"></div>
+                <img src="images/spotifygif.gif" alt="Spotify Downloader Demo" class="relative rounded-lg shadow-xl w-full max-w-md">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="fade-in">
+        <div class="bg-gray-800/50 rounded-2xl overflow-hidden border border-gray-700 hover:border-cyan-500 transition-all duration-500 group">
+          <div class="lg:flex">
+            <div class="lg:w-1/2 p-8">
+              <h3 class="text-2xl font-bold text-cyan-400 mb-3">Subtitle Organizer</h3>
+              <p class="text-gray-300 mb-4">An intelligent tool that automatically matches subtitle files with their corresponding video files for seamless media organization.</p>
+              <div class="space-y-2 mb-6">
+                <div class="flex items-center gap-2">
+                  <div class="w-2 h-2 bg-cyan-400 rounded-full"></div>
+                  <span class="text-sm">File matching algorithms</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <div class="w-2 h-2 bg-cyan-400 rounded-full"></div>
+                  <span class="text-sm">Tkinter user interface</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <div class="w-2 h-2 bg-cyan-400 rounded-full"></div>
+                  <span class="text-sm">Batch processing</span>
+                </div>
+              </div>
+              <div class="flex flex-wrap gap-3 mb-4">
+                <span class="px-3 py-1 bg-cyan-600/20 text-cyan-400 rounded-full text-sm border border-cyan-500/30">Python</span>
+                <span class="px-3 py-1 bg-cyan-600/20 text-cyan-400 rounded-full text-sm border border-cyan-500/30">Tkinter</span>
+                <span class="px-3 py-1 bg-cyan-600/20 text-cyan-400 rounded-full text-sm border border-cyan-500/30">File I/O</span>
+                <span class="px-3 py-1 bg-cyan-600/20 text-cyan-400 rounded-full text-sm border border-cyan-500/30">Data Structures</span>
+              </div>
+              <a href="https://github.com/firasachino/Orginizer_chino" target="_blank" class="inline-flex items-center gap-2 px-6 py-3 bg-gray-700 hover:bg-gray-600 rounded-lg transition-all duration-300 font-medium group-hover:scale-105">
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+            <div class="lg:w-1/2 p-4 flex items-center justify-center">
+              <div class="relative group/img">
+                <div class="absolute -inset-2 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-xl blur opacity-20 group-hover/img:opacity-40 transition duration-500"></div>
+                <img src="images/subtitlegif.gif" alt="Subtitle Organizer Demo" class="relative rounded-lg shadow-xl w-full max-w-md">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="fade-in mt-16 text-center">
+          <p class="text-gray-400 text-lg max-w-2xl mx-auto leading-relaxed">
+            Thank you for checking out my work. These are my current public coding projects. 
+            My creative projects are private at the moment.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="py-20 bg-gray-800/30">
+  <div class="max-w-2xl mx-auto px-4">
+    <div class="fade-in text-center">
+      <h2 class="text-4xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent mb-6">Contact me</h2>
+      <p class="text-gray-400 text-lg mb-12">I'm always interested in new opportunities and creative projects. Get in touch and let's discuss how we can collaborate.</p>
+      
+      <div class="bg-gray-800/50 rounded-2xl p-8 border border-gray-700">
+        <div class="space-y-6">
+          <div class="text-center">
+            <i class="fas fa-envelope text-cyan-400 text-3xl mb-4"></i>
+            <h3 class="text-xl font-semibold mb-2">Email Me</h3>
+            <a href="mailto:firasabadistudy@gmail.com" class="text-cyan-400 hover:text-cyan-300 transition-colors text-lg">firasabadistudy@gmail.com</a>
+          </div>
+          
+          <div class="border-t border-gray-700 pt-6">
+            <h3 class="text-xl font-semibold mb-4">Connect With Me</h3>
+            <div class="flex justify-center gap-6">
+              <a href="https://github.com/firasachino" target="_blank" class="p-3 bg-gray-700 hover:bg-gray-600 rounded-lg transition-all duration-300 hover:scale-110">
+                <i class="fab fa-github text-xl"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="py-8 text-center text-gray-500 border-t border-gray-800">
+  <p>© 2024 Firas Abadi. Crafted with passion and precision.</p>
+</footer>
+
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
